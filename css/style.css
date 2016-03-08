@@ -1,0 +1,67 @@
+body {
+	text-align: center;
+}
+
+.row {
+	margin: 2%;
+}
+
+#add_zender {
+	padding: 0px;
+}
+
+.zenders {
+	margin-right: 1%;
+	margin-bottom: 1%;
+	display: block;
+	text-align: center;
+	background-color: #89cff0;
+	border-radius: 5px;
+	font-size: 45px;
+	height: 100px;
+}
+
+.zenders > span > p {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.zenders:hover {
+	background-color: #1780b2;
+}
+
+.zenders:active {
+	color: white;
+}
+
+.controls {
+	display: block;
+	text-align: center;
+	font-size: 45px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.controls > span:hover {
+	color: #89cff0;
+}
+
+.controls > span:active {
+	color: #1780b2;
+}
+
+#close {
+	display: block;
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	top: -10px;
+	right: -10px;
+	background: url(http://icons.iconarchive.com/icons/kyo-tux/delikate/512/Close-icon.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.mini_container{
+	height: 100px;
+}
